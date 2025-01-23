@@ -1,0 +1,182 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f4f4f4;
+}
+/* Set the background image for the entire page */
+body {
+    background-image: url('path-to-your-background-image.jpg.jpg');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }  
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff7f50;
+}
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+  }
+  
+  .logo span {
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #ff7f50;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .cta-btn {
+    text-decoration: none;
+    background-color: #ff7f50;
+    padding: 15px 30px;
+    color: #121212;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-btn:hover {
+    background-color: #ff6347;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Product Cards Container */
+.product-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure items wrap to the next row */
+    gap: 30px; /* Space between rows and columns */
+    padding: 20px;
+}
+
+/* Product Card Styling */
+.product-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    width: 280px; /* Fixed width for consistency */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    border: 1px solid #ddd; /* Optional border for better visibility */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Add a hover effect to scale the card */
+}
+
+/* Product Card Image Styling */
+.product-card img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Product Card Text */
+.product-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff; /* White text for better contrast */
+}
+
+.product-card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ddd; /* Light color for the price text */
+}
+
+/* Product Button */
+.product-card .product-btn {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .product-btn:hover {
+    background-color: #e55a4b; /* Darker shade for hover effect */
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    font-size: 16px;
+}
